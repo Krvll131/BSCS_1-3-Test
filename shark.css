@@ -1,0 +1,56 @@
+ .highlight {
+    background-color: blueviolet;
+    color: rgb(202, 173, 10);
+    padding: 20px 10px;
+    border-radius: 4px;
+ }
+
+ .banner {
+    background-color: lightblue;
+    color: white;
+    padding: 20px 120px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+ .round-pill {
+    border-radius: 20px;
+    font-size-adjust: calc(1);
+ }
+
+ .Gradient {
+    background: linear-gradient(90deg, #6bc4ff, #7e5cdd);
+ }
+
+ .Clip {
+    background: linear-gradient(90 deg, blue, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+ }
+
+ .card {
+    background-color: rgb(155, 155, 201);
+    border-radius: 6px;
+    padding: 20px 20px
+ }
+
+ .text {
+    padding: 10px 90px
+ }
+
+ .image-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+ }
+
+ .round-img {
+    border-radius: 12px;
+    object-fit: cover;
+    display: flexbox;
+    width: 100%;
+    height: 180px;
+ }
+
